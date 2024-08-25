@@ -1,0 +1,182 @@
+/* header */
+#heading{
+    font-size: 30px;
+    position: relative;
+    left:20px
+}
+header{
+    display: flex;
+    height: 3.5rem;
+    align-items: center;
+    
+}
+header a{
+    font-size: large;
+}
+#heading{
+    width:55%;
+}
+.nav{
+    width:45%;
+    text-align: center;
+}
+.nav a{
+    margin-right: 40px;
+}
+.color{
+    color: rgb(72, 72, 72)
+}
+
+.sec-1{
+    background-color: rgba(215, 233, 240, 0.377);
+    display: flex;
+    justify-content: center;
+    height: 23rem;
+
+}
+.sec-1 div{
+    width:43%;
+      
+    position: relative;
+    left:30px; 
+}
+.sec-1 p{
+    font-size: 60px;
+    margin-bottom: -15px; 
+}
+span{
+    color: rgb(34, 148, 34);
+}
+.sec-1 img{
+    position: relative;
+    top:40px;
+    width:270px;
+    height: 270px;
+}
+.upper{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: -8px;
+}
+.lower{
+    text-align: center;
+}
+.sec-3{
+    display: flex;
+    grid-template-columns: (1,3fr);
+    justify-content: space-evenly;
+   
+}
+.sec-3 img{
+    height: 65px;
+    width:65px;
+    position: relative;
+    left: 80px;
+    
+}
+.sec-3 .upper{
+    margin-top: -10px;
+}
+.sec-3 div{
+    margin-top: 10px;
+    
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 1px rgba(206, 206, 206, 0.63);
+    /* margin:20px; */
+    padding: 20px;
+}
+.sec-4{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.sec-4-2{
+    margin: 30px;
+    width:40%;
+}
+.sec-4-1 img{
+    height: 350px;
+    width: 450px;
+}
+.sec-5 .lower{
+width: 35%;
+position: relative;
+left: 470px;
+}
+
+.sec-6{
+    display: flex;
+    grid-template-columns: (1,3fr);
+    justify-content: space-evenly;
+}
+.sec-6-1{
+    margin: 10px;
+    width: 23rem;
+    height: 75%;
+    border-radius: 10px;
+}
+#img1{
+    background-image: url("DJCSI Technical Tasks Image 18.png");
+    background-size: cover;
+}
+#img2{
+    background-image: url("DJCSI Technical Tasks Image 19.png");
+    background-size: cover;
+    
+}
+#img3{
+    background-image: url("DJCSI Technical Tasks Image 20.png");
+    background-size: cover;
+}
+.sec-6{
+    height:20rem;
+    
+}
+.sec-6-2{
+    position: relative;
+    top: 10rem;
+    left:85px;
+    text-align: center;
+    background-color: azure;
+    border-radius: 5px;
+    z-index: 100;
+    width: 55%;
+    padding: 5px 0 5px 0;
+    box-shadow: 1px 1px 2px 2px azure;
+}
+.sec-6-2 a{
+    margin-bottom: 10px;
+    color: rgb(30, 179, 30);
+    font-weight: 700;
+}
+button{
+    background-color: rgb(30, 179, 30);
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: white;
+    border: 0px;
+}
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(5, 33, 18);
+    color: rgb(236, 236, 236);
+    padding: 2rem;
+}
+footer ul{
+    display: inline;
+}
+
+footer input{
+    background-color: rgba(100, 147, 122, 0.121);
+    border-radius: 5px;
+    height: 1.7rem;
+    color: white;
+    border: none;
+
+}
+footer ul p{
+    font-size: 20px;
+    margin-bottom: -5px;
+}
